@@ -23,11 +23,12 @@ app.config(($routeProvider) => {
 //create controllers
 
 app.controller('MainCtrl', function ($scope) {
-
+  console.log("main controller!")
   $scope.primary = "main view"
 })
 
 app.controller('SevenCtrl', function ($scope) {
 
   console.log("Seven Mile Bridge!!")
+  $scope.second = "first bridge"
 })
