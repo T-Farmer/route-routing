@@ -8,7 +8,7 @@ app.config(($routeProvider) => {
   $routeProvider
     .when('/', {
       controller: 'MainCtrl',
-      templateUrl: 'index.html'
+      templateUrl: 'partials/index.html'
     })
     .when('/7mile', {
       controller: 'SevenCtrl',
