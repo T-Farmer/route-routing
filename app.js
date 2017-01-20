@@ -23,7 +23,14 @@ angular
 
 .controller ('SevenCtrl', function($scope) {
   console.log('I am SevenCtrl')
-  $scope.second = () => '7 Mile'
+  $scope.highwayName = '7 Mile Bridge'
+  $scope.highwayDescription = 'This highway is in Florida'
+})
+
+.controller ('PchCtrl', function($scope) {
+  console.log('I am PchCtrl')
+  $scope.highwayName = 'Pacific Coast Highway'
+  $scope.highwayDescription = 'A very famous highway'
 })
 
 
